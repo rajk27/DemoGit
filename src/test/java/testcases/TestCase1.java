@@ -14,5 +14,9 @@ public class TestCase1 {
 		System.out.println("This is Login Test...");
 	}
 	
+	@Test(priority=3)
+	public void teardown() {
+		System.out.println("This is Teardown Test...");
+	}
 	
 }
