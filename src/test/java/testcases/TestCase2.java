@@ -9,5 +9,8 @@ public class TestCase2 {
 		System.out.println("This is Test 1...");
 	}
 	
-	
+	@Test
+	public void test2() {
+		System.out.println("This is Test 1...");
+	}
 }
