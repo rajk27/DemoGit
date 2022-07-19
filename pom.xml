@@ -3,6 +3,11 @@
   <groupId>git.sample</groupId>
   <artifactId>SampleGit</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+	<build>
+    <defaultGoal>install</defaultGoal>
+  </build>
+  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
