@@ -17,7 +17,7 @@ public class TestCase1 {
 	
 	@Test(priority=2)
 	public void login() throws InterruptedException {
-		driver.get("https://www.gmail.com/");
+		driver.get("https://www.google.com/");
 		Thread.sleep(2000);
 	}
 	
